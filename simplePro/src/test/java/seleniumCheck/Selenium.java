@@ -36,6 +36,8 @@ public class Selenium {
         ele.click();
         driver.findElement(By.xpath("//button[@id='add-to-cart']")).click();
         driver.findElement(By.xpath("//button[@id='back-to-products']")).click();
+        driver.findElement(By.xpath("//a[@class='shopping_cart_link']")).click();
+        driver.findElement(By.xpath("//button[@id='checkout']")).click();
         
     }
 }
