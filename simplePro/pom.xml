@@ -9,7 +9,7 @@
     <artifactId>simplePro</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <!-- 🔹 Java version controlled by Maven -->
+    <!-- Java version controlled by Maven -->
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
@@ -17,7 +17,7 @@
     </properties>
 
     <dependencies>
-        <!-- Selenium -->
+        <!-- Selenium dependency -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
